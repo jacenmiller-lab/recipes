@@ -8,10 +8,10 @@ prep_time: 30 min
 cook_time: 1 hr
 total_time: 1 hr 30 min
 source: Chef Andrew Gruel (@ChefGruel) on X; amounts adjusted by us over several batches
-equipment: [3 qt (8×14) baking dish, large sauté pan, large pot, ice bath, mandoline (optional)]
+equipment: [3 qt (8×14) baking dish, deep sauté pan or medium saucepan, large sauté pan, large pot, ice bath, mandoline (optional)]
 ingredients:
   - { qty: 6,     unit: "",    item: shallot, note: thinly sliced }
-  - { qty: "",    unit: "",    item: beef tallow, note: "enough to cover the pan bottom for frying" }
+  - { qty: "",    unit: "",    item: beef tallow, note: "for frying; plus extra to top up between batches" }
   - { qty: 1,     unit: lb,    item: bacon, note: chopped }
   - { qty: 1,     unit: cup,   item: mushrooms, note: "fresh, chopped" }
   - { qty: "1/2-1", unit: tsp, item: xanthan gum, note: "to thicken the gravy; start with the lower amount", pantry: true }
@@ -35,8 +35,10 @@ ingredients:
 ### Crispy shallots
 
 1. Slice the shallots thin and even, using a mandoline or a knife.
-2. Heat the beef tallow in a sauté pan over medium heat. Add the shallots and fry, stirring now and then, until golden brown.
-3. Lift them out onto a paper-towel-lined plate and salt them while they're still hot. Set aside.
+2. Heat the beef tallow over medium heat in a deep sauté pan or a medium saucepan. The pan needs to hold enough tallow, deep enough, to fry a decent amount of shallots at once.
+3. Fry the shallots in batches, stirring now and then, until golden brown. Expect 6 or more batches so you don't overcrowd the pan.
+4. Lift each batch out onto a paper-towel-lined plate and salt it while it's still hot.
+5. Add more tallow between batches as needed to keep the level up. After adding fresh tallow, let it come back up to temperature before starting the next batch.
 
 ### Bacon mushroom gravy
 
