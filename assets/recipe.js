@@ -56,7 +56,10 @@
     list.innerHTML = "";
     var anyRounded = false;
 
-    (variations[active].ingredients || []).forEach(function (ing) {
+    var groups = (data.sections && data.sections.length) ? data.sections : [{ name: "", ingredients: variations[active].ingredients }];
+    groups.forEach(function (g) {
+    if (g.name && groups.length > 1) list.appendChild(el("li", "ing-section", g.name));
+    (g.ingredients || []).forEach(function (ing) {
       var r = S.scaleIngredient(ing, factor);
       var li = el("li", r.pantry ? "pantry" : "");
       var box = el("input"); box.type = "checkbox"; box.setAttribute("aria-label", "Got it");
@@ -70,6 +73,7 @@
       li.addEventListener("click", function (e) { if (e.target !== box) box.checked = !box.checked; li.classList.toggle("done", box.checked); });
       box.addEventListener("change", function () { li.classList.toggle("done", box.checked); });
       list.appendChild(li);
+    });
     });
 
     var msgs = [];

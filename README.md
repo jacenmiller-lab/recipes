@@ -50,6 +50,10 @@ ingredients:
 - Cans, cloves and counted items round up to whole numbers.
 - "To taste" items never scale. Cook times don't change.
 
+### Recipes with parts (filling, topping…)
+
+Use `sections` in place of `ingredients`, each with a `name` and its own `ingredients` (see `_recipes/crock-pot-apple-crisp.md`). All sections show at once under subheadings.
+
 ### Recipes with versions
 
 Use `variations` in place of `ingredients` (see `_recipes/chaffles.md`). Each version gets its own tab.

@@ -82,6 +82,9 @@ main { max-width: 760px; margin: 0 auto; padding: 0 18px 60px; }
 .ing-list { list-style: none; padding: 0; margin: 10px 0 0; }
 .ing-list li { display: flex; gap: 12px; align-items: flex-start; padding: 9px 0; border-top: 1px solid var(--line); cursor: pointer; }
 .ing-list li:first-child { border-top: 0; }
+.ing-list li.ing-section { display: block; cursor: default; border-top: 0; padding: 14px 0 2px; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); }
+.ing-list li.ing-section:first-child { padding-top: 4px; }
+.ing-list li.ing-section + li { border-top: 0; }
 .ing-list input { margin-top: 5px; width: 18px; height: 18px; accent-color: var(--accent); flex: none; }
 .ing-list .note { color: var(--muted); }
 .ing-list .flag { color: var(--accent); font-size: 0.85rem; }

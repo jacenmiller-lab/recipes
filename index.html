@@ -19,7 +19,8 @@ title: Home
     "tags": {{ r.tags | jsonify }},
     "total_time": {{ r.total_time | jsonify }},
     "ingredients": {{ r.ingredients | map: "item" | jsonify }},
-    "variations": {{ r.variations | jsonify }}
+    "variations": {{ r.variations | jsonify }},
+    "sections": {{ r.sections | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

@@ -5,7 +5,7 @@
 
   recipes.forEach(function (r) {
     var items = (r.ingredients || []).filter(Boolean);
-    (r.variations || []).forEach(function (v) {
+    (r.variations || []).concat(r.sections || []).forEach(function (v) {
       (v.ingredients || []).forEach(function (i) { if (i && i.item) items.push(i.item); });
       if (v.name) items.push(v.name);
     });

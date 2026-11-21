@@ -98,6 +98,7 @@
     if (Math.abs(factor - 1) < 1e-9) {            // as written: keep the writer's units
       out.amount = q.lo === q.hi ? fmt(q.lo) : fmt(q.lo) + "–" + fmt(q.hi);
       out.unit = plural(unit, q.hi);
+      if (!unit && q.hi > 1) out.item = pluralItem(out.item);
       return out;
     }
 
@@ -126,13 +127,13 @@
 
   // "egg" -> "eggs", "onion" -> "onions" when counted with no unit.
   function pluralItem(item) {
-    var m = String(item).match(/^(\S+)(.*)$/);
+    var m = String(item).match(/^(.*?)(\S+)$/);
     if (!m) return item;
-    var w = m[1];
+    var w = m[2], pre = m[1];
     if (/s$/i.test(w)) return item;
-    if (/(ch|sh|x|o)$/i.test(w)) return w + "es" + m[2];
-    if (/[^aeiou]y$/i.test(w)) return w.slice(0, -1) + "ies" + m[2];
-    return w + "s" + m[2];
+    if (/(ch|sh|x|o)$/i.test(w)) return pre + w + "es";
+    if (/[^aeiou]y$/i.test(w)) return pre + w.slice(0, -1) + "ies";
+    return pre + w + "s";
   }
 
   var api = { parseQty: parseQty, fmt: fmt, scaleIngredient: scaleIngredient, plural: plural, normUnit: normUnit };
