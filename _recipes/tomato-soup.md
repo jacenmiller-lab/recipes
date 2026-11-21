@@ -39,5 +39,5 @@ ingredients:
 
 ## Notes
 
-- A 14.5 oz can of diced tomatoes works too; we usually use the 28 oz.
+- If you can't find a 28 oz can of diced tomatoes, use two 14.5 oz cans.
 - Use vegetable broth to make it vegetarian.
