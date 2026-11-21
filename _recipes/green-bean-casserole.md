@@ -20,6 +20,9 @@ ingredients:
   - { qty: 2-3,   unit: dash,  item: Worcestershire sauce, pantry: true }
   - { qty: 2,     unit: tsp,   item: nutritional yeast, pantry: true }
   - { qty: 6-8,   unit: cup,   item: green beans, note: "fresh, trimmed" }
+  - { qty: "",    unit: "",    item: parmesan cheese, note: "grated, for topping" }
+  - { qty: "",    unit: "",    item: butter, note: "a few pats, for finishing" }
+  - { qty: "",    unit: "",    item: fresh chives, note: "chopped, for finishing" }
   - { qty: "",    unit: "",    item: kosher salt, note: "1 cup per gallon of blanching water", pantry: true }
   - { qty: "",    unit: "",    item: salt, note: to taste, pantry: true }
   - { qty: "",    unit: "",    item: black pepper, note: to taste, pantry: true }
@@ -37,7 +40,7 @@ ingredients:
 
 ### Bacon mushroom gravy
 
-1. In a large pan, cook the chopped bacon until the fat renders and the bacon is browned.
+1. In a large pan, cook the chopped bacon until the fat renders and the bacon is browned. Keep all the fat in the pan, since this big batch needs plenty of gravy.
 2. Add the mushrooms and cook until browned.
 3. Sprinkle the almond flour over the bacon, mushrooms and fat, and stir it in.
 4. Pour in the chicken broth and heavy cream. Bring to a simmer and let it cook down, stirring occasionally, until it thickens to a gravy that coats a spoon, about 10–20 minutes.
@@ -53,12 +56,12 @@ ingredients:
 
 1. Heat the oven to 350°F.
 2. In the baking dish, mix the gravy, green beans and half the crispy shallots.
-3. Bake until hot all the way through and browned on top, about 25–30 minutes.
-4. Top with the rest of the crispy shallots just before serving.
+3. Sprinkle parmesan over the top.
+4. Bake until hot all the way through and browned on top, about 25–30 minutes.
+5. Finish with the rest of the crispy shallots, a few pats of butter, and the chopped chives.
 
 ## Notes
 
 - Almond flour has no starch, so it barely thickens. The gravy thickens mainly by simmering down. If it's still thin, simmer longer, or whisk in about ¼ tsp xanthan gum.
 - The 1 cup of salt is for kosher salt like Diamond Crystal. With Morton kosher or table salt, use about half.
-- The original post also tops the casserole with parmesan before baking, and finishes it with a few pats of butter and fresh chives.
 - Oven temperature and bake time are a starting point. The original post doesn't give them.
