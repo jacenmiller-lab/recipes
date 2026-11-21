@@ -1,0 +1,21 @@
+title: Miller Family Recipes
+description: Our family recipe box
+baseurl: "/recipes"
+url: "https://jacenmiller-lab.github.io"
+
+collections:
+  recipes:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: recipe
+
+exclude:
+  - README.md
+  - preview
+  - tools

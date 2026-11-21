@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+---
+<section class="home">
+  <input id="search" class="search" type="search" placeholder="Search recipes or ingredients…" autocomplete="off" aria-label="Search recipes">
+  <div id="tag-filter" class="tag-filter"></div>
+  <ul id="recipe-grid" class="grid"></ul>
+  <p id="empty" class="empty" hidden>No recipes match.</p>
+</section>
+
+<script id="recipe-index" type="application/json">
+[
+{% assign sorted = site.recipes | sort: "title" %}
+{% for r in sorted %}
+  {
+    "title": {{ r.title | jsonify }},
+    "url": {{ r.url | relative_url | jsonify }},
+    "tags": {{ r.tags | jsonify }},
+    "total_time": {{ r.total_time | jsonify }},
+    "ingredients": {{ r.ingredients | map: "item" | jsonify }},
+    "variations": {{ r.variations | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
+</script>
+<script src="{{ '/assets/home.js' | relative_url }}"></script>

@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<article class="recipe">
+  <a class="back" href="{{ '/' | relative_url }}">← All recipes</a>
+  <h1>{{ page.title }}</h1>
+
+  <ul class="meta">
+    {% if page.prep_time %}<li><span>Prep</span>{{ page.prep_time }}</li>{% endif %}
+    {% if page.cook_time %}<li><span>Cook</span>{{ page.cook_time }}</li>{% endif %}
+    {% if page.total_time %}<li><span>Total</span>{{ page.total_time }}</li>{% endif %}
+  </ul>
+
+  {% if page.tags %}
+  <ul class="tags">
+    {% for t in page.tags %}<li><a href="{{ '/' | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a></li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  <section class="ingredients card">
+    <div class="ing-head">
+      <h2>Ingredients</h2>
+      <div class="scaler" aria-label="Change amount">
+        <button type="button" data-step="-1" aria-label="Make less">−</button>
+        <output id="yield-label"></output>
+        <button type="button" data-step="1" aria-label="Make more">+</button>
+      </div>
+    </div>
+    <div id="variation-tabs" class="tabs" role="tablist"></div>
+    <ul id="ingredient-list" class="ing-list"></ul>
+    <p id="scale-note" class="scale-note"></p>
+    {% if page.equipment %}
+    <p class="equipment"><strong>Equipment:</strong> {{ page.equipment | join: ", " }}</p>
+    {% endif %}
+  </section>
+
+  <section class="method">
+    {{ content }}
+  </section>
+
+  <footer class="recipe-foot">
+    <label class="wake"><input type="checkbox" id="wake-toggle"> Keep screen on while cooking</label>
+    {% if page.source %}
+    <p class="source">Source:
+      {% if page.source_url %}<a href="{{ page.source_url }}" rel="noopener">{{ page.source }}</a>{% else %}{{ page.source }}{% endif %}
+    </p>
+    {% endif %}
+  </footer>
+</article>
+
+<script id="recipe-data" type="application/json">
+{
+  "makes": {{ page.makes | jsonify }},
+  "usually_make": {{ page.usually_make | jsonify }},
+  "step": {{ page.scale_step | jsonify }},
+  "ingredients": {{ page.ingredients | jsonify }},
+  "variations": {{ page.variations | jsonify }}
+}
+</script>
+<script src="{{ '/assets/scale.js' | relative_url }}"></script>
+<script src="{{ '/assets/recipe.js' | relative_url }}"></script>
