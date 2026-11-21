@@ -1,0 +1,64 @@
+---
+title: Scratch Green Bean Casserole
+tags: [side, thanksgiving, holiday, low-carb, oven]
+makes: { qty: 1, unit: casserole }   # fills a 3 qt (8×14) glass Pyrex dish
+usually_make: 1
+scale_step: 0.5
+prep_time: 30 min
+cook_time: 1 hr
+total_time: 1 hr 30 min
+source: Chef Andrew Gruel (@ChefGruel) on X; amounts adjusted by us over several batches
+equipment: [3 qt (8×14) baking dish, large sauté pan, large pot, ice bath, mandoline (optional)]
+ingredients:
+  - { qty: 6,     unit: "",    item: shallot, note: thinly sliced }
+  - { qty: "",    unit: "",    item: beef tallow, note: "enough to cover the pan bottom for frying" }
+  - { qty: 1,     unit: lb,    item: bacon, note: chopped }
+  - { qty: 1,     unit: cup,   item: mushrooms, note: "fresh, chopped" }
+  - { qty: 2,     unit: tsp,   item: almond flour, pantry: true }
+  - { qty: 4,     unit: cup,   item: chicken broth }
+  - { qty: 2,     unit: cup,   item: heavy cream }
+  - { qty: 2-3,   unit: dash,  item: Worcestershire sauce, pantry: true }
+  - { qty: 2,     unit: tsp,   item: nutritional yeast, pantry: true }
+  - { qty: 6-8,   unit: cup,   item: green beans, note: "fresh, trimmed" }
+  - { qty: "",    unit: "",    item: kosher salt, note: "1 cup per gallon of blanching water", pantry: true }
+  - { qty: "",    unit: "",    item: salt, note: to taste, pantry: true }
+  - { qty: "",    unit: "",    item: black pepper, note: to taste, pantry: true }
+---
+
+# Scratch Green Bean Casserole
+
+## Instructions
+
+### Crispy shallots
+
+1. Slice the shallots thin and even, using a mandoline or a knife.
+2. Heat the beef tallow in a sauté pan over medium heat. Add the shallots and fry, stirring now and then, until golden brown.
+3. Lift them out onto a paper-towel-lined plate and salt them while they're still hot. Set aside.
+
+### Bacon mushroom gravy
+
+1. In a large pan, cook the chopped bacon until the fat renders and the bacon is browned.
+2. Add the mushrooms and cook until browned.
+3. Sprinkle the almond flour over the bacon, mushrooms and fat, and stir it in.
+4. Pour in the chicken broth and heavy cream. Bring to a simmer and let it cook down, stirring occasionally, until it thickens to a gravy that coats a spoon, about 10–20 minutes.
+5. Take it off the heat and season with the Worcestershire, nutritional yeast, salt and pepper.
+
+### Green beans
+
+1. Bring a gallon of water to a boil and add the 1 cup of kosher salt. Set up a big bowl of ice water.
+2. Add the green beans and cook for 90 seconds, then move them straight into the ice water. Work in two batches if they don't fit.
+3. Once cold, drain them well.
+
+### Assemble and bake
+
+1. Heat the oven to 350°F.
+2. In the baking dish, mix the gravy, green beans and half the crispy shallots.
+3. Bake until hot all the way through and browned on top, about 25–30 minutes.
+4. Top with the rest of the crispy shallots just before serving.
+
+## Notes
+
+- Almond flour has no starch, so it barely thickens. The gravy thickens mainly by simmering down. If it's still thin, simmer longer, or whisk in about ¼ tsp xanthan gum.
+- The 1 cup of salt is for kosher salt like Diamond Crystal. With Morton kosher or table salt, use about half.
+- The original post also tops the casserole with parmesan before baking, and finishes it with a few pats of butter and fresh chives.
+- Oven temperature and bake time are a starting point. The original post doesn't give them.
