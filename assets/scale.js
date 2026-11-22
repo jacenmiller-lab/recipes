@@ -16,7 +16,7 @@
 
   var PLURALS = { cup: "cups", can: "cans", clove: "cloves", jar: "jars", package: "packages", box: "boxes",
     bag: "bags", bunch: "bunches", head: "heads", stick: "sticks", waffle: "waffles", serving: "servings",
-    batch: "batches", slice: "slices", piece: "pieces", loaf: "loaves", cookie: "cookies", muffin: "muffins", casserole: "casseroles", dash: "dashes", pan: "pans" };
+    batch: "batches", slice: "slices", piece: "pieces", loaf: "loaves", cookie: "cookies", muffin: "muffins", casserole: "casseroles", dash: "dashes", pan: "pans", portion: "portions" };
 
   var NICE = [
     [0, ""], [1 / 8, "⅛"], [1 / 4, "¼"], [1 / 3, "⅓"], [1 / 2, "½"],
