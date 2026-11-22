@@ -1,7 +1,7 @@
 title: Miller Family Recipes
 description: Our family recipe box
 # iPhone Shortcut that receives the grocery list (one item per line)
-grocery_shortcut: "Skylight List"
+grocery_shortcut: "Skylight List 2"
 
 baseurl: "/recipes"
 url: "https://jacenmiller-lab.github.io"
