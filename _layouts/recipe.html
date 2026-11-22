@@ -29,6 +29,8 @@ layout: default
     <div id="variation-tabs" class="tabs" role="tablist"></div>
     <ul id="ingredient-list" class="ing-list"></ul>
     <p id="scale-note" class="scale-note"></p>
+    <a id="send-grocery" class="send-btn" href="#">Send to grocery list</a>
+    <p class="send-hint">Opens the “{{ site.grocery_shortcut | default: 'Skylight List' }}” shortcut. Pantry items are left off.</p>
     {% if page.equipment %}
     <p class="equipment"><strong>Equipment:</strong> {{ page.equipment | join: ", " }}</p>
     {% endif %}
@@ -55,7 +57,8 @@ layout: default
   "step": {{ page.scale_step | jsonify }},
   "ingredients": {{ page.ingredients | jsonify }},
   "variations": {{ page.variations | jsonify }},
-  "sections": {{ page.sections | jsonify }}
+  "sections": {{ page.sections | jsonify }},
+  "shortcut": {{ site.grocery_shortcut | default: "Skylight List" | jsonify }}
 }
 </script>
 <script src="{{ '/assets/scale.js' | relative_url }}"></script>

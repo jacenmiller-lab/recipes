@@ -55,6 +55,7 @@
     label.textContent = "Makes " + S.fmt(current) + " " + S.plural(unitName, current);
     list.innerHTML = "";
     var anyRounded = false;
+    var grocery = [];
 
     var groups = (data.sections && data.sections.length) ? data.sections : [{ name: "", ingredients: variations[active].ingredients }];
     groups.forEach(function (g) {
@@ -69,6 +70,10 @@
       txt.appendChild(document.createTextNode((r.amount ? " " : "") + r.item));
       if (r.note) txt.appendChild(el("span", "note", ", " + r.note));
       if (r.rounded) { txt.appendChild(el("span", "flag", " (rounded up)")); anyRounded = true; }
+      if (!r.pantry && r.item) {
+        var name = r.item.charAt(0).toUpperCase() + r.item.slice(1);
+        grocery.push(r.amount ? name + " — " + r.amount + (r.unit ? " " + r.unit : "") : name);
+      }
       li.appendChild(txt);
       li.addEventListener("click", function (e) { if (e.target !== box) box.checked = !box.checked; li.classList.toggle("done", box.checked); });
       box.addEventListener("change", function () { li.classList.toggle("done", box.checked); });
@@ -80,6 +85,17 @@
     if (Math.abs(factor - 1) > 1e-9) msgs.push("Scaled from the original (" + S.fmt(baseQty) + " " + S.plural(unitName, baseQty) + "). Cook times don't change.");
     if (anyRounded) msgs.push("Whole items are rounded up.");
     note.textContent = msgs.join(" ");
+    updateSend(grocery);
+  }
+
+  // Hand the list to the iPhone Shortcut, one item per line. The Shortcut holds the Skylight credentials.
+  var sendBtn = document.getElementById("send-grocery");
+  function updateSend(items) {
+    if (!sendBtn) return;
+    sendBtn.href = "shortcuts://run-shortcut?name=" + encodeURIComponent(data.shortcut || "Skylight List") +
+      "&input=text&text=" + encodeURIComponent(items.join("\n"));
+    sendBtn.textContent = "Send " + items.length + " item" + (items.length === 1 ? "" : "s") + " to grocery list";
+    sendBtn.classList.toggle("disabled", !items.length);
   }
 
   document.querySelectorAll(".scaler button").forEach(function (b) {
