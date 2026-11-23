@@ -1,5 +1,5 @@
 ---
-title: Tomato Soup
+title: Dawcen's Tomato Soup
 slug: tomato-soup
 tags: [soup, weeknight, vegetarian-optional, stovetop, leftovers]
 equipment: [large pot, immersion blender]
@@ -22,7 +22,7 @@ ingredients:
   - { qty: "",    unit: "",     item: black pepper, note: to taste, pantry: true }
 ---
 
-# Tomato Soup
+# Dawcen's Tomato Soup
 
 ## Instructions
 

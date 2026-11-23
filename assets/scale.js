@@ -10,13 +10,13 @@
     cups: "cup", c: "cup"
   };
   // Things you buy or use whole: round up, never show "1.5 cans".
-  var WHOLE_UNITS = { "": true, can: true, jar: true, package: true, pkg: true, box: true, bag: true, bunch: true, head: true, stick: true, clove: true };
+  var WHOLE_UNITS = { "": true, can: true, jar: true, package: true, pkg: true, box: true, bag: true, bunch: true, head: true, stick: true, clove: true, roll: true, cake: true };
   // Things that can sensibly be halved.
   var HALF_UNITS = { lb: true, oz: true };
 
   var PLURALS = { cup: "cups", can: "cans", clove: "cloves", jar: "jars", package: "packages", box: "boxes",
     bag: "bags", bunch: "bunches", head: "heads", stick: "sticks", waffle: "waffles", serving: "servings",
-    batch: "batches", slice: "slices", piece: "pieces", loaf: "loaves", cookie: "cookies", muffin: "muffins", casserole: "casseroles", dash: "dashes", pan: "pans", portion: "portions", steak: "steaks", fillet: "fillets" };
+    batch: "batches", slice: "slices", piece: "pieces", loaf: "loaves", cookie: "cookies", muffin: "muffins", casserole: "casseroles", dash: "dashes", pan: "pans", portion: "portions", steak: "steaks", fillet: "fillets", roll: "rolls", cake: "cakes", dozen: "dozen" };
 
   var NICE = [
     [0, ""], [1 / 8, "⅛"], [1 / 4, "¼"], [1 / 3, "⅓"], [1 / 2, "½"],
