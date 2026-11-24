@@ -10,6 +10,7 @@ pantry:
   - coconut sugar
   - xylitol
   - allulose
+  - sesame oil
 
 baseurl: "/recipes"
 url: "https://jacenmiller-lab.github.io"
