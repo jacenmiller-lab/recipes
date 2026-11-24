@@ -25,6 +25,13 @@
   var storeKey = "variation:" + location.pathname;
   try { var saved = parseInt(localStorage.getItem(storeKey), 10); if (saved >= 0 && saved < variations.length) active = saved; } catch (e) {}
 
+  // Site-wide pantry list from _config.yml (matches if the item name contains a pantry term).
+  var pantryTerms = (data.pantry || []).map(function (t) { return String(t).toLowerCase(); });
+  function isPantry(item) {
+    var name = String(item || "").toLowerCase();
+    return pantryTerms.some(function (t) { return t && name.indexOf(t) >= 0; });
+  }
+
   function el(tag, cls, text) {
     var n = document.createElement(tag);
     if (cls) n.className = cls;
@@ -62,6 +69,7 @@
     if (g.name && groups.length > 1) list.appendChild(el("li", "ing-section", g.name));
     (g.ingredients || []).forEach(function (ing) {
       var r = S.scaleIngredient(ing, factor);
+      if (!r.pantry && isPantry(r.item)) r.pantry = true;
       var li = el("li", r.pantry ? "pantry" : "");
       var box = el("input"); box.type = "checkbox"; box.setAttribute("aria-label", "Got it");
       li.appendChild(box);

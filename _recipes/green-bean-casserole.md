@@ -19,7 +19,7 @@ ingredients:
   - { qty: 2,     unit: cup,   item: heavy cream }
   - { qty: 2-3,   unit: dash,  item: Worcestershire sauce, pantry: true }
   - { qty: 2,     unit: tsp,   item: nutritional yeast, pantry: true }
-  - { qty: 6-8,   unit: cup,   item: green beans, note: "fresh, trimmed" }
+  - { qty: 1 1/2-2, unit: lb, item: green beans, note: "fresh, trimmed (about 4 cups per lb)" }
   - { qty: "",    unit: "",    item: parmesan cheese, note: "grated, for topping" }
   - { qty: "",    unit: "",    item: butter, note: "a few pats, for finishing" }
   - { qty: "",    unit: "",    item: fresh chives, note: "chopped, for finishing" }

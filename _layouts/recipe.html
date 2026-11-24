@@ -58,6 +58,7 @@ layout: default
   "ingredients": {{ page.ingredients | jsonify }},
   "variations": {{ page.variations | jsonify }},
   "sections": {{ page.sections | jsonify }},
+  "pantry": {{ site.pantry | jsonify }},
   "shortcut": {{ site.grocery_shortcut | default: "Skylight List" | jsonify }}
 }
 </script>

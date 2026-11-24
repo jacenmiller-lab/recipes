@@ -3,6 +3,14 @@ description: Our family recipe box
 # iPhone Shortcut that receives the grocery list (one item per line)
 grocery_shortcut: "Skylight List"
 
+# Staples we keep on hand. Any ingredient whose name contains one of these
+# is marked "pantry" on every recipe and left off the grocery list.
+pantry:
+  - almond flour
+  - coconut sugar
+  - xylitol
+  - allulose
+
 baseurl: "/recipes"
 url: "https://jacenmiller-lab.github.io"
 

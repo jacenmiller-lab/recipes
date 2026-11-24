@@ -42,7 +42,7 @@ ingredients:
 - **qty**: a number (`2`, `0.5`), a fraction (`1/2`, `1 1/2`), a range (`2-3`), or `""` for "to taste".
 - **unit**: `tsp`, `tbsp`, `cup`, `oz`, `lb`, `can`, `clove`, `jar`, `package`… Use `""` for things you count (eggs, onions).
 - **note**: optional extra detail shown after the item.
-- **pantry: true**: staples that usually stay off the grocery list.
+- **pantry: true**: staples that usually stay off the grocery list. Items listed under `pantry:` in `_config.yml` are treated as pantry on every recipe automatically.
 
 ### Scaling rules on the site
 
