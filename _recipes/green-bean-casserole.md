@@ -5,8 +5,8 @@ makes: { qty: 1, unit: casserole }   # fills a 3 qt (8×14) glass Pyrex dish
 usually_make: 1
 scale_step: 0.5
 prep_time: 30 min
-cook_time: 1 hr
-total_time: 1 hr 30 min
+cook_time: 1 hr 15 min
+total_time: 1 hr 45 min
 source: Chef Andrew Gruel (@ChefGruel) on X; amounts adjusted by us over several batches
 equipment: [3 qt (8×14) baking dish, deep sauté pan or medium saucepan, deep-fry or instant-read thermometer, large sauté pan, large pot, ice bath, mandoline (optional)]
 ingredients:
@@ -44,8 +44,8 @@ ingredients:
 
 1. In a large pan, cook the chopped bacon until the fat renders and the bacon is browned. Keep all the fat in the pan, since this big batch needs plenty of gravy.
 2. Add the mushrooms and cook until browned.
-3. Pour in the chicken broth and heavy cream. Bring to a simmer and let it cook down for about 10 minutes, stirring occasionally.
-4. Sprinkle in ½ tsp xanthan gum a little at a time while whisking hard, so it doesn't clump. Simmer 2–3 minutes. If it's still thinner than you want, whisk in up to ½ tsp more. It should coat a spoon, and it will thicken a bit more in the oven.
+3. Pour in the chicken broth and heavy cream. Bring to a simmer and let it cook down for 15–20 minutes, stirring occasionally, until reduced by about a quarter. This is where most of the body and flavor comes from.
+4. Then sprinkle in ½ tsp xanthan gum a little at a time while whisking hard, so it doesn't clump. Simmer another 2–3 minutes so it fully thickens. If it's still thinner than you want, whisk in up to ½ tsp more. It should coat a spoon, and it will thicken a bit more in the oven.
 5. Take it off the heat and season with the Worcestershire, nutritional yeast, salt and pepper.
 
 ### Green beans
