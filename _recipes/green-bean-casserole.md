@@ -8,7 +8,7 @@ prep_time: 30 min
 cook_time: 1 hr
 total_time: 1 hr 30 min
 source: Chef Andrew Gruel (@ChefGruel) on X; amounts adjusted by us over several batches
-equipment: [3 qt (8×14) baking dish, deep sauté pan or medium saucepan, large sauté pan, large pot, ice bath, mandoline (optional)]
+equipment: [3 qt (8×14) baking dish, deep sauté pan or medium saucepan, deep-fry or instant-read thermometer, large sauté pan, large pot, ice bath, mandoline (optional)]
 ingredients:
   - { qty: 6,     unit: "",    item: shallot, note: thinly sliced }
   - { qty: "",    unit: "",    item: beef tallow, note: "for frying; plus extra to top up between batches" }
@@ -35,10 +35,10 @@ ingredients:
 ### Crispy shallots
 
 1. Slice the shallots thin and even, using a mandoline or a knife.
-2. Heat the beef tallow over medium heat in a deep sauté pan or a medium saucepan. The pan needs to hold enough tallow, deep enough, to fry a decent amount of shallots at once.
-3. Fry the shallots in batches, stirring now and then, until golden brown. Expect 6 or more batches so you don't overcrowd the pan.
+2. Heat the beef tallow to **275–300°F** in a deep sauté pan or a medium saucepan. The pan needs to hold enough tallow, deep enough, to fry a decent amount of shallots at once.
+3. Fry the shallots in batches, stirring now and then, until light golden, about 5–8 minutes per batch. Pull them a shade lighter than you want; they keep darkening for a minute after they come out. Expect 6 or more batches so you don't overcrowd the pan.
 4. Lift each batch out onto a paper-towel-lined plate and salt it while it's still hot.
-5. Add more tallow between batches as needed to keep the level up. After adding fresh tallow, let it come back up to temperature before starting the next batch.
+5. Add more tallow between batches as needed to keep the level up. After adding fresh tallow, let it come back up to 275–300°F before starting the next batch.
 
 ### Bacon mushroom gravy
 
@@ -63,6 +63,8 @@ ingredients:
 5. Finish with the rest of the crispy shallots, a few pats of butter, and the chopped chives.
 
 ## Notes
+
+- **Shallot frying temperature:** keep the tallow at 275–300°F and don't let it go above about 325°F. Hotter oil browns the outside before the moisture cooks out, so the shallots burn and turn bitter instead of getting crisp.
 
 - Xanthan gum replaces the almond flour we used to use, which has no starch and barely thickened the gravy. A little goes a long way; too much makes the gravy gummy, so add it gradually.
 - The 1 cup of salt is for kosher salt like Diamond Crystal. With Morton kosher or table salt, use about half.
